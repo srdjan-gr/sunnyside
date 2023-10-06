@@ -239,3 +239,64 @@ button:hover {
     font-size: 1.6rem;
     line-height: 1.6;
 }
+
+
+/* Client testimonials */
+
+.testimonials__section{
+    margin: 10rem 0;
+}
+ 
+.testimonials__section h2{
+    text-transform: uppercase;
+    color: var(--light-grayish-blue);
+    font-size: 1.6rem;
+    letter-spacing: .5rem;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.testimonials__section-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__section-text article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3rem;
+    /* justify-content: space-around; */
+}
+
+.testimonials__section-text article img{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.testimonials__section-text article p{
+    margin: 3.5rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--grayish-blue);
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.testimonials__section-text article h3{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--dark-blue-2);
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.testimonials__section-text article h4{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--light-grayish-blue);
+    font-weight: 600;
+}
