@@ -300,3 +300,20 @@ button:hover {
     color: var(--light-grayish-blue);
     font-weight: 600;
 }
+
+
+/* Images section */
+.images__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 20rem; */
+    /* max-width: 1440px; */
+    width: 100;
+}
+
+.images__section img{
+    /* height: 20rem; */
+    width: 100%;
+    /* height: 100%; */
+}
