@@ -436,4 +436,29 @@ footer ul li:hover {
         right: 3rem;
         font-size: 2.5rem;
     }
+
+
+
+
+
+
+
+
+    .testimonials__section-text {
+        flex-direction: column;
+    }
+
+    .testimonials__section-text article {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    .testimonials__section-text article:last-child {
+        margin-bottom: 0rem;
+        border-bottom: none;
+    }
+
+    .testimonials__section-text article h4 {
+        padding-bottom: 1.5rem;
+    }
 }
