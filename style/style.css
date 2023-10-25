@@ -132,7 +132,7 @@ button:hover {
     display: none;
 }
 
-.mobile__menu{
+.mobile__menu {
     display: none;
 }
 
@@ -254,7 +254,7 @@ button:hover {
     font-weight: 600;
 }
 
-.mobile-img{
+.mobile-img {
     display: none;
 }
 
@@ -400,13 +400,16 @@ footer ul li:hover {
         top: 14rem;
     }
 
-    .hero__text h1{
+    .hero__text h1 {
         text-align: center;
     }
 
     .hero__text img {
         margin-top: 5rem;
     }
+
+    /* ============================= */
+
 
 
     /* Mobile menu */
@@ -416,10 +419,11 @@ footer ul li:hover {
     }
 
     .mobile__menu {
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
-        width: 70%;
+        width: 70vw;
         height: 100vh;
         background-color: var(--bg);
         -webkit-box-shadow: -8px 0px 11px -2px rgba(0, 0, 0, 0.17);
@@ -431,6 +435,7 @@ footer ul li:hover {
         color: white;
         transform: translateX(100%);
         transition: all .2s linear;
+        z-index: 1000;
     }
 
     .mobile__menu.active {
@@ -455,18 +460,24 @@ footer ul li:hover {
         font-size: 2.5rem;
     }
 
+    /* ============================= */
+
+
 
     /* Grid section */
-    .first{
+    .first {
         grid-area: one;
     }
-    .second{
+
+    .second {
         grid-area: two;
     }
-    .third{
+
+    .third {
         grid-area: three;
     }
-    .forth{
+
+    .forth {
         grid-area: four;
     }
 
@@ -487,7 +498,7 @@ footer ul li:hover {
         padding: 8rem 3rem;
         height: 45rem;
     }
-    
+
     .grid__section-description h2 {
         text-align: center;
         font-size: 3rem;
@@ -503,13 +514,16 @@ footer ul li:hover {
         padding: 2rem 0;
     }
 
-    .desktop-img{
+    .desktop-img {
         display: none;
     }
 
-    .mobile-img{
+    .mobile-img {
         display: flex;
     }
+
+    /* ============================= */
+
 
 
     /* Image section */
@@ -517,6 +531,9 @@ footer ul li:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    /* ============================= */
+
 
 
     /* Testimonials */
@@ -542,9 +559,11 @@ footer ul li:hover {
         padding-bottom: 1.5rem;
     }
 
+    /* ============================= */
+
+
 
     /* Footer */
-
     footer .logo-footer {
         height: 3rem;
     }
